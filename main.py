@@ -20,6 +20,7 @@ def input_handler():
 
 
 def rate_limited_handler(r, timestamps_list):
+    # Initialize window parameters
     window_start = timestamps_list[0]
     window_end = window_start + 3600
     window = []
